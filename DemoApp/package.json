@@ -1,7 +1,7 @@
 {
-  "name": "demoapp",
+  "name": "tribute app",
   "version": "1.0.0",
-  "description": "This project is a sample application demonstrating a more fully developed realistic single page angular application.",
+  "description": "Website for the Tribue to salsa dura project.",
   "main": "index.js",
   "dependencies": {
     "jasmine-core": "2.3.4",

@@ -1,9 +1,12 @@
 <div>
-    <h1>Events</h1>
+    <h1>Up Coming Events</h1>
     <hr/>
     <ul class="thumbnails">
-        <li ng-repeat="event in events|orderBy:sortorder" class="span5">
-            <event-thumbnail event="event" />
+        <li ng-repeat="event in events|orderBy:sortorder:reverse" class="span7">
+                <event-thumbnail event="event" />
+
         </li>
+
+
     </ul>
 </div>

@@ -1,1 +1,35 @@
-{"id":2,"creator":"jmcooper","name":"Code Camp","date":"03/15/2013","time":"9:00am - 5:00pm","location":{"address":"123 Wall St","city":"New York","province":"NY"},"imageUrl":"http://blog.laptopmag.com/wpress/wp-content/uploads/2012/08/Code-Camp_sf.jpg","sessions":[{"id":1,"upVoteCount":0,"creator":"jmcooper","name":"How To Program","track":"DevOps","duration":1,"abstract":"this session will teach you to program","creatorName":"Jim Cooper","level":"advanced"},{"id":2,"upVoteCount":0,"creator":"jmcooper","name":"How To Dance","track":"Web","duration":4,"abstract":"this session will teach you to dance","creatorName":"Jim Cooper","level":"introductory"},{"id":3,"upVoteCount":0,"creator":"bob","name":"How To Sing","track":"DevOps","duration":1,"abstract":"this session will teach you to sing  Lorum Ipsum FooBarsum Lorum Ipsum FooBarsum Lorum Ipsum FooBarsum Lorum Ipsum FooBarsum Lorum Ipsum FooBarsum Lorum Ipsum FooBarsum Lorum Ipsum FooBarsum Lorum Ipsum FooBarsum Lorum Ipsum FooBarsum  Lorum Ipsum FooBarsum Lorum Ipsum FooBarsum Lorum Ipsum FooBarsum Lorum Ipsum FooBarsum Lorum Ipsum FooBarsum Lorum Ipsum FooBarsum Lorum Ipsum FooBarsum Lorum Ipsum FooBarsum Lorum Ipsum FooBarsum  Lorum Ipsum FooBarsum Lorum Ipsum FooBarsum Lorum Ipsum FooBarsum Lorum Ipsum FooBarsum Lorum Ipsum FooBarsum Lorum Ipsum FooBarsum Lorum Ipsum FooBarsum Lorum Ipsum FooBarsum Lorum Ipsum FooBarsum ","level":"advanced","creatorName":"Bob"},{"duration":2,"name":"How To Be Awesome","abstract":"this course will make me rich","creator":"bob","creatorName":"Bob","id":4,"upVoteCount":0,"track":"Web","level":"introductory"},{"duration":2,"track":"Web","name":"How to build Angular Applications","abstract":"This session is all about angular applications","creator":"bob","creatorName":"Bob","upVoteCount":0,"id":5,"level":"intermediate"}]}
+{"id":2,"creator":"efrin","name":"Tritube Hector Lavoe", "price": "80kr",
+  "date":"04/22/2018","time":"10:00pm - 5:00pm","location":{"address":"123 Wall St","city":"New York","province":"NY"},
+  "imageUrl":"https://images.complex.com/complex/image/upload/c_limit,w_680/fl_lossy,pg_1,q_auto/hjrwcjl8rwjzlmffotp0.jpg",
+
+
+  "sessions": [
+    {
+      "id": 1,
+      "name": "DJ Colo8",
+      "creatorName": "DJ Colo8",
+      "duration": 1,
+      "level": "Introductory",
+      "abstract": "Come a enjoy the only salsa dura concept in town!",
+      "upVoteCount": 0
+    },
+    {
+      "id": 2,
+      "name": "Salsa dura show",
+      "creatorName": "Bailarín",
+      "duration": 3,
+      "level": "Introductory",
+      "abstract": "This session will take a closer look at salsa dura steps.  Learn what they do and how they do it!.",
+      "upVoteCount": 3
+    },
+    {
+      "id": 3,
+      "name": "Bar all night",
+      "creatorName": "Daniel",
+      "duration": 2,
+      "level": "Introductory",
+      "abstract": "The best prices in town!",
+      "upVoteCount": 2
+    }
+  ]
+}

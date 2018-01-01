@@ -1,1 +1,5 @@
-{"name":"some event","date":"04/23/2016","time":"9am to 12pm","location":{"address":"123 fake st","city":"new york","province":"USA"},"imageUrl":"http://epilepsyu.com/epilepsyassociation/files/2016/01/FUN.gif","id":999}
+{"name":"Romantic couple night",
+  "date":"04/25/2018",
+  "time":"9am to 12pm",
+  "location":{"address":"123 fake st","city":"new york","province":"USA"},
+  "imageUrl":"https://cdn.flickeringmyth.com/wp-content/uploads/2017/04/Dirty-Dancing-images-14-600x400.jpg","id":999}

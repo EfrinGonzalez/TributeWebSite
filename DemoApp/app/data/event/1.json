@@ -1,39 +1,40 @@
-{"name": "Angular Boot Camp",
+{           "name": "Tribue salsa dura party",
             "id": 1,
-            "date": "1/1/2013",
-            "time": "10:30 am",
+            "date": "04/21/2018",
+            "time": "10:00 pm",
+            "price": "60kr",
             "location": {
-                "address": "Google Headquarters",
-                "city": "Mountain View",
-                "province": "CA"
+                "address": "Antiguo Selenium",
+                "city": "Copenhagen",
+                "province": "Norrebro"
             },
-            "imageUrl": "http://pascalprecht.github.com/slides/angularjs-insights/img/angularjs-logo.png",
+            "imageUrl": "http://lasalsabrava.com/wp-content/uploads/2014/03/mafia-banner.jpg",
             "sessions": [
                 {
 					"id": 1,
-                    "name": "Directives Masterclass",
-                    "creatorName": "Bob Smith",
+                    "name": "DJ Colo8",
+                    "creatorName": "DJ Colo8",
                     "duration": 1,
-                    "level": "Advanced",
-                    "abstract": "In this session you will learn the ins and outs of directives!",
+                    "level": "Introductory",
+                    "abstract": "Come a enjoy the only salsa dura concept in town!",
                     "upVoteCount": 0
                 },
                 {
 					"id": 2,
-                    "name": "Scopes for fun and profit",
-                    "creatorName": "John Doe",
+                    "name": "Salsa dura show",
+                    "creatorName": "Bailarín",
                     "duration": 3,
                     "level": "Introductory",
-                    "abstract": "This session will take a closer look at scopes.  Learn what they do, how they do it, and how to get them to do it for you.",
+                    "abstract": "This session will take a closer look at salsa dura steps.  Learn what they do and how they do it!.",
                     "upVoteCount": 3
                 },
                 {
 					"id": 3,
-                    "name": "Well Behaved Controllers",
-                    "creatorName": "Jane Doe",
+                    "name": "Bar all night",
+                    "creatorName": "Daniel",
                     "duration": 2,
-                    "level": "Intermediate",
-                    "abstract": "Controllers are the beginning of everything Angular does.  Learn how to craft controllers that will win the respect of your friends and neighbors.",
+                    "level": "Introductory",
+                    "abstract": "The best prices in town!",
                     "upVoteCount": 2
                 }
             ]
