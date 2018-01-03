@@ -1,14 +1,15 @@
-{"id":2,"creator":"efrin","name":"Tribute to Hector Lavoe",
-  "date":"04/22/2018","time":"12:00",
-  "price": "40.00",
+{           "name": "Tribute salsa latin music",
+  "id": 5,
+  "date": "04/21/2018",
+  "time": "10:00",
+  "price": "70.00",
   "location": {
     "address": "Antiguo Selenium",
-    "city": "Aarhus",
+    "city": "Copenhagen",
     "province": "Norrebro"
   },
-  "imageUrl":"https://images.complex.com/complex/image/upload/c_limit,w_680/fl_lossy,pg_1,q_auto/hjrwcjl8rwjzlmffotp0.jpg",
   "abstract":"Come a enjoy the only salsa dura concept in town!",
-
+  "imageUrl": "http://lasalsabrava.com/wp-content/uploads/2014/03/mafia-banner.jpg",
   "sessions": [
     {
       "id": 1,

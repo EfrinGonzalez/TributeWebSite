@@ -1,13 +1,14 @@
-{           "name": "Tribue salsa dura party",
+{           "name": "Tribute salsa dura party",
             "id": 1,
             "date": "04/21/2018",
-            "time": "10:00 pm",
-            "price": "60kr",
+            "time": "10:00",
+            "price": "60.00",
             "location": {
                 "address": "Antiguo Selenium",
                 "city": "Copenhagen",
                 "province": "Norrebro"
             },
+            "abstract":"Come a enjoy the only salsa dura concept in town!",
             "imageUrl": "http://lasalsabrava.com/wp-content/uploads/2014/03/mafia-banner.jpg",
             "sessions": [
                 {

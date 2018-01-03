@@ -10,19 +10,42 @@
 
 <body ng-cloak>
 <div class="container">
+<a href="/home">
+        <img src="/img/ball.png" width="150" height="150">
+    </a>
     <div class="navbar" ng-controller="MainMenuController">
         <div class="navbar-inner">
             <ul class="nav">
                <li><a href="/home"> Home </a> </li>
-                <li><a href="/about"> About us </a> </li>
+                <li><a href="/calendar"> Calendar </a> </li>
                 <li><a href="/gallery"> Gallery </a> </li>
+                <li><a href="/about"> About us </a> </li>
                 <li><a href="/contact"> Contact </a> </li>
-               <li><a href="#" ng-click="createEvent()">Create Event</a></li>
+
+              <!-- <li><a href="#" ng-click="createEvent()">Create Event</a></li>-->
             </ul>
         </div>
     </div>
 
     <ng-view></ng-view>
+
+    <hr />
+    <br>
+    <br>
+    <div class="text-center center-block">
+
+            <a href="https://www.facebook.com/">
+                <img src="https://icon-icons.com/icons2/838/PNG/512/circle-facebook_icon-icons.com_66834.png" width="50" height="50">
+            </a>
+
+            <a href="https://www.instagram.com">
+                <img src="https://i0.wp.com/www.redsome.com/wp-content/uploads/2015/03/RedSome-How-To-Share-Photos-With-Selected-People-In-Instagram-Featured.png?fit=512%2C512" width="50" height="50">
+            </a>
+        <br />
+        <footer>    © 2017 Tribute - Salsa dura</footer>
+
+    </div>
+
 
 </div>
 

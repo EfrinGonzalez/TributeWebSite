@@ -1,5 +1,10 @@
 {"name":"Romantic couple night",
   "date":"04/24/2018",
-  "time":"9am to 12pm",
-  "location":{"address":"123 fake st","city":"new york","province":"USA"},
-  "imageUrl":"https://orig11.deviantart.net/a7ce/f/2015/303/7/5/romantic_dancing_5_by_carriejokerbates-d9eyg7s.gif","id":999}
+  "time":"19:00","price": "60.00",
+  "location": {
+    "address": "Antiguo Selenium",
+    "city": "Copenhagen",
+    "province": "Norrebro"
+  },
+  "imageUrl":"https://orig11.deviantart.net/a7ce/f/2015/303/7/5/romantic_dancing_5_by_carriejokerbates-d9eyg7s.gif",
+  "abstract":"Come a enjoy the only salsa dura concept in town!","id":4}

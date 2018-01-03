@@ -1,1 +1,9 @@
-{"name":"Ladies night","date":"04/23/2018","time":"9am to 12pm","location":{"address":"123 fake st","city":"new york","province":"USA"},"imageUrl":"https://www.hardrockhotelpuntacana.com/files/3811/LADIESNIGHThotelwww-banner.jpg","id":999}
+{"name":"Ladies night","date":"04/23/2018","time":"13:00",
+  "price": "80.00",
+  "location": {
+    "address": "Antiguo Selenium",
+    "city": "Copenhagen",
+    "province": "Norrebro"
+  },
+  "imageUrl":"https://www.hardrockhotelpuntacana.com/files/3811/LADIESNIGHThotelwww-banner.jpg",
+  "abstract":"Come a enjoy the only salsa dura concept in town!","id":3}

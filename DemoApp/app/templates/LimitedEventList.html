@@ -2,11 +2,10 @@
     <h1>Up Coming Events</h1>
     <hr/>
     <ul class="thumbnails">
-        <li ng-repeat="event in events|orderBy:sortorder:reverse" class="span7">
+        <li ng-repeat="event in events|orderBy:sortorder:reverse | limitTo:4" class="span7">
                 <event-thumbnail event="event" />
 
         </li>
-
-
     </ul>
+
 </div>

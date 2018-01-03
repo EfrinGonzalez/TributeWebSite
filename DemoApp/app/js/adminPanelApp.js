@@ -9,7 +9,7 @@ var adminPanelApp = angular.module('adminPanelApp', ['ngResource', 'ngRoute'])
             });
         $routeProvider.when('/events',
             {
-                templateUrl: 'templates/EventList.html',
+                templateUrl: 'templates/LimitedEventList.html',
                 controller: 'EventListController'
             });
         $routeProvider.when('/event/:eventId',

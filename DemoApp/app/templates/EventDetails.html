@@ -1,5 +1,5 @@
   <div ng-controller="EventController" style="padding-left:20px; padding-right:20px">
-    <img ng-src="{{event.imageUrl}}" alt="{{event.name}}">
+
 
     <div class="row">
       <div class="span11">
@@ -7,23 +7,33 @@
       </div>
     </div>
 
+      <img ng-src="{{event.imageUrl}}" alt="{{event.name}}">
+      <br>
+      <br>
     <div class="row">
-      <div class="span3">
-        <div><strong>Date:</strong> {{event.date}}</div>
-        <div><strong>Time:</strong> {{event.time}}</div>
-        <!--<div><strong>Price:</strong> {{34 | currency}}</div>-->
-          <div><strong>Price:</strong> {{event.price}}</div>
-      </div>
-      <div class="span4">
-        <address>
-          <strong>Address:</strong><br />
-          {{event.location.address}}<br />
-          {{event.location.city}}, {{event.location.province}}
-        </address>
-      </div>
-    </div>
+          <div class="span3">
+            <div><strong>Date:</strong> {{event.date}}</div>
+            <div><strong>Time:</strong> {{event.time}}</div>
+            <!--<div><strong>Price:</strong> {{34 | currency}}</div>-->
+              <div><strong>Price:</strong> {{event.price}}</div>
+          </div>
 
-    <hr>
+        <div class="span4">
+            <address>
+              <strong>Address:</strong><br />
+              {{event.location.address}}<br />
+              {{event.location.city}}, {{event.location.province}}
+            </address>
+          </div>
+    </div>
+      <hr>
+      <div class="row">
+          <div class="span11">
+              <h6>{{event.abstract}} </h6>
+          </div>
+      </div>
+
+
 
    <!-- <h3>Line up</h3>-->
    <!-- Order By:
@@ -38,20 +48,22 @@
       <option value="intermediate" >Intermediate</option>
       <option value="advanced" >Advanced</option>
     </select>-->
-    <ul class="thumbnails">
+
+
+      <!--<ul class="thumbnails">
       <li ng-repeat="session in event.sessions | orderBy:sortorder | limitTo:3 | filter:query" id="session{{session.id}}">
         <div class="row session">
          <!-- <upvote upvote="upVoteSession(session)" downvote="downVoteSession(session)" count="session.upVoteCount"/>-->
-          <div class="well span9">
+         <!-- <div class="well span9">
             <collapsible title="{{session.name}}">
                 <!--<h6 style="margin-top:-10px">{{session.creatorName}}</h6>-->
-                <span>Duration: {{session.duration | durations}}</span><br />
+          <!--      <span>Duration: {{session.duration | durations}}</span><br />
                <!-- <span>Level: {{session.level}}</span>-->
 
-                <p>{{session.abstract}}</p>
+        <!--        <p>{{session.abstract}}</p>
             </collapsible>
           </div>
         </div>
       </li>
-    </ul>
+    </ul>-->
   </div>
