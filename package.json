@@ -12,6 +12,9 @@
     "body-parser": "1.13.1",
     "express": "4.13.0"
   },
+  "engines": {
+    "node":"6.11.4"
+  },
   "devDependencies": {
     "jasmine-core": "^2.3.4"
   },
