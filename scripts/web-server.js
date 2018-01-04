@@ -13,6 +13,9 @@ app.get('/data/event/:id', events.get);
 app.get('/data/event', events.getAll);
 app.post('/data/event/:id', events.save);
 app.get('*', function(req, res) { res.sendFile(rootPath + '/app/index.html'); });*/
+
+app.use(express.static('/app'));
+
 app.get('/', function (req, res) {
     res.send('Hello World!');
 });
