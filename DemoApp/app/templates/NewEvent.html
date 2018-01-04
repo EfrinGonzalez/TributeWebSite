@@ -18,7 +18,7 @@
           <br />
           <input id="eventCity" type="text" ng-model="event.location.city" class="input-small" placeholder="City..." />
           <input id="eventProvince" type="text" ng-model="event.location.province" class="input-small" placeholder="Province..." />
-          <div>{{event.name}}</div>
+        <!--  <div>{{event.name}}</div>-->
           <label for="eventImageUrl">Image:</label>
           <input id="eventImageUrl" type="url" ng-model="event.imageUrl" class="input-xlarge" placeholder="url of image..." />
         </fieldset>
@@ -26,9 +26,8 @@
         <img ng-src="{{event.imageUrl}}" />
         <br />
         <br />
-
-       <!-- <button type="submit" ng-disabled="newEventForm.$invalid" ng-click="saveEvent(event, newEventForm)" class="btn btn-primary">Save</button>-->
-        <button type="submit" ng-click="saveEvent(event, newEventForm)" class="btn btn-primary">Save</button>
+   <button type="submit" ng-disabled="newEventForm.$invalid" ng-click="saveEvent(event, newEventForm)" class="btn btn-primary">Save</button>
+        <!--<button type="submit" ng-click="saveEvent(event, newEventForm)" class="btn btn-primary">Save</button>-->
         <button type="button" ng-click="cancelEvent()" class="btn btn-default">Cancel</button>
       </form>
     </div>

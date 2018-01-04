@@ -7,11 +7,6 @@ var eventsApp = angular.module('eventsApp', ['ngResource', 'ngRoute'])
                 templateUrl:'templates/NewEvent.html',
                 controller: 'EditEventController'
             });
-        $routeProvider.when('/events',
-            {
-                templateUrl: 'templates/AdminEventList.html',
-                controller: 'EventListController'
-            });
         $routeProvider.when('/event/:eventId',
             {
                 templateUrl: 'templates/EventDetails.html',
@@ -34,25 +29,16 @@ var eventsApp = angular.module('eventsApp', ['ngResource', 'ngRoute'])
             });
         $routeProvider.when('/about',
             {
-                templateUrl:'templates/About.html',
-                //controller: 'EditEventController'
+                templateUrl:'templates/About.html'
             });
         $routeProvider.when('/gallery',
             {
-                templateUrl:'templates/Gallery.html',
-                //controller: 'EditEventController'
+                templateUrl:'templates/Gallery.html'
             });
         $routeProvider.when('/contact',
             {
-                templateUrl:'templates/Contact.html',
-                //controller: 'EditEventController'
-            });
-        $routeProvider.when('/sampleDirective',
-            {
-                templateUrl: 'templates/SampleDirective.html',
-                controller: 'SampleDirectiveController'
+                templateUrl:'templates/Contact.html'
             })
-        //$routeProvider.otherwise({redirectTo: '/events'});
         $routeProvider.otherwise({redirectTo: '/home'});
         $locationProvider.html5Mode(true);
 

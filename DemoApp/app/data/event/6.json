@@ -9,34 +9,6 @@
     "province": "Norrebro"
   },
   "abstract":"Come a enjoy the only salsa dura concept in town!",
-  "imageUrl": "http://lasalsabrava.com/wp-content/uploads/2014/03/mafia-banner.jpg",
-  "sessions": [
-    {
-      "id": 1,
-      "name": "DJ Colo8",
-      "creatorName": "DJ Colo8",
-      "duration": 1,
-      "level": "Introductory",
-      "abstract": "Come a enjoy the only salsa dura concept in town!",
-      "upVoteCount": 0
-    },
-    {
-      "id": 2,
-      "name": "Salsa dura show",
-      "creatorName": "Bailarín",
-      "duration": 3,
-      "level": "Introductory",
-      "abstract": "This session will take a closer look at salsa dura steps.  Learn what they do and how they do it!.",
-      "upVoteCount": 3
-    },
-    {
-      "id": 3,
-      "name": "Bar all night",
-      "creatorName": "Daniel",
-      "duration": 2,
-      "level": "Introductory",
-      "abstract": "The best prices in town!",
-      "upVoteCount": 2
-    }
-  ]
+  "imageUrl": "http://lasalsabrava.com/wp-content/uploads/2014/03/mafia-banner.jpg"
+
 }

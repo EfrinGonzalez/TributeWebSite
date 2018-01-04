@@ -2,7 +2,7 @@ var express = require('express');
 var path = require('path');
 var events = require('./eventsController');
 var app = express();
-var rootPath = path.normalize(__dirname + '/../');
+var rootPath = path.normalize(__dirname + '/../');//root of app
 var bodyParser = require('body-parser');
 
 app.use(bodyParser.urlencoded({extended: true}));
