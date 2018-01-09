@@ -1,4 +1,6 @@
-{"name":"Ladies night","date":"04/23/2018","time":"13:00",
+{"name":"Ladies night",
+  "date": "05/02/2018",
+  "time":"13:00",
   "price": "80.00",
   "location": {
     "address": "Antiguo Selenium",

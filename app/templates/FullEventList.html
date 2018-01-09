@@ -3,7 +3,7 @@
 
 
     </br>
-    Your are sorting by: {{ sortType }} </br>
+    Sorting by: {{ sortType }} </br>
     (Click the column header to sort)
     </br>
  <table class="table tshirttable">
@@ -13,7 +13,7 @@
                         ng-show="sortType == 'id'" class="fa fa-caret-down"></span> Id
                 </a></b></td>-->
                 <td><b><a href="/calendar" ng-click="sortType = 'date'"> <span
-                        ng-show="sortType == 'date'" class="fa fa-caret-down"></span> Date
+                        ng-show="sortType == 'date'" class="fa fa-caret-down"></span> Date <br>(dd/mm/yyyy)
                 </a></b></td>
 
                 <td><b><a href="/calendar" ng-click="sortType = 'time'"> <span
@@ -21,7 +21,7 @@
                 </a></b></td>
 
                 <td><b><a href="/calendar" ng-click="sortType = 'name'"> <span
-                        ng-show="sortType == 'name'" class="fa fa-caret-down"></span> Name
+                        ng-show="sortType == 'name'" class="fa fa-caret-down"></span> Event Name
                 </a></b></td>
                 <td><b><a href="/calendar" ng-click="sortType = 'location.city'"> <span
                         ng-show="sortType == 'location.city'" class="fa fa-caret-down"></span> Address
@@ -29,7 +29,7 @@
 
 
                 <td><b><a href="/calendar" ng-click="sortType = 'price'"> <span
-                        ng-show="sortType == 'price'" class="fa fa-caret-down"></span> Price
+                        ng-show="sortType == 'price'" class="fa fa-caret-down"></span> Price <br>(all in DKKr.)
                 </a></b></td>
             </tr>
         </div>

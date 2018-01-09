@@ -1,6 +1,34 @@
 <!doctype html>
 <html ng-app="eventsApp">
 <head>
+    <style>
+        .log_container{
+            display: flex;
+        }
+        .fixed{
+            width: 200px;
+            overflow: hidden;
+
+            position: fixed;
+            top: 0;
+        }
+        .flex-item{
+            flex-grow: 1;
+        }
+        .navbar {
+            overflow: hidden;
+            width: auto%;
+            position: fixed;
+            top: 0;
+
+        }
+
+        .main {
+            padding: 16px;
+            margin-top: 220px;
+            height: 1000px; /* Used in this example to enable scrolling
+        }
+    </style>
     <base href="/"/>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/app.css">
@@ -9,11 +37,20 @@
 
 
 <body ng-cloak>
+<!--<div class="logo_container">
+    <div class="fixed"></div>
+    <div class="flex-item">
+        <a href="/home">
+        <img src="/img/tribute.png" width="200" height="200">
+    </a></div>
+</div>-->
+
 <div class="container">
-<a href="/home">
-        <img src="/img/ball.png" width="150" height="150">
-    </a>
+
     <div class="navbar" ng-controller="MainMenuController">
+        <a href="/home">
+            <img src="/img/tribute.png" width="250" height="250">
+        </a>
         <div class="navbar-inner">
             <ul class="nav">
                <li><a href="/home"> Home </a> </li>
@@ -26,9 +63,9 @@
             </ul>
         </div>
     </div>
-
+    <div class="main">
     <ng-view></ng-view>
-
+    </div>
     <hr />
     <br>
     <br>
