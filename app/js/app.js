@@ -38,7 +38,15 @@ var eventsApp = angular.module('eventsApp', ['ngResource', 'ngRoute'])
         $routeProvider.when('/contact',
             {
                 templateUrl:'templates/Contact.html'
-            })
+            });
+        $routeProvider.when('/blog',
+            {
+                templateUrl:'templates/Blog.html'
+            });
+        $routeProvider.when('/colaborators',
+            {
+                templateUrl:'templates/Colaborators.html'
+            });
         $routeProvider.otherwise({redirectTo: '/home'});
         $locationProvider.html5Mode(true);
 

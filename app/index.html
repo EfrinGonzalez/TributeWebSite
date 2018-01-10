@@ -2,33 +2,22 @@
 <html ng-app="eventsApp">
 <head>
     <style>
-        .log_container{
-            display: flex;
-        }
-        .fixed{
-            width: 200px;
-            overflow: hidden;
 
-            position: fixed;
-            top: 0;
-        }
-        .flex-item{
-            flex-grow: 1;
-        }
-        .navbar {
-            overflow: hidden;
+       /* .navbar {
             width: auto;
+            width: 100%;
             position: fixed;
             top: 0;
-            background-color: black;
+           /* background-color: black;*/
 
-        }
+
+    /*    }
 
         .main {
             padding: 16px;
             margin-top: 220px;
-            height: 1000px; /* Used in this example to enable scrolling
-        }
+            height: 1000px; /* Used in this example to enable scrolling*/
+   /*     }*/
     </style>
     <base href="/"/>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -50,7 +39,8 @@
 
     <div class="navbar" ng-controller="MainMenuController">
         <a href="/home">
-            <img src="/img/tribute.png" width="250" height="250">
+            <img src="/img/tribute.png" width="300" height="300" style="margin-left:-75px; margin-top: -30px;
+    margin-bottom: -30px;">
         </a>
         <div class="navbar-inner">
             <ul class="nav">
@@ -59,6 +49,8 @@
                 <li><a href="/gallery"> Gallery </a> </li>
                 <li><a href="/about"> About us </a> </li>
                 <li><a href="/contact"> Contact </a> </li>
+                <li><a href="/blog"> Blog </a> </li>
+                <li><a href="/colaborators"> Colaborators </a> </li>
 
               <!-- <li><a href="#" ng-click="createEvent()">Create Event</a></li>-->
             </ul>
