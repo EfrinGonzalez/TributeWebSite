@@ -7,14 +7,21 @@
       </div>
     </div>
 
+      <div class="row">
+          <div class="span11">
+              <h6>{{event.abstract}} </h6>
+          </div>
+      </div>
+      <br>
       <img ng-src="{{event.imageUrl}}" alt="{{event.name}}">
+
       <br>
       <br>
     <div class="row">
           <div class="span3">
             <div><strong>Date:</strong> {{event.date}}</div>
-            <div><strong>Time:</strong> {{event.time}}</div>
-            <div><strong>Price:</strong> {{event.price}}</div>
+            <div><strong>Time:</strong> {{event.time}} Hrs.</div>
+            <div><strong>Price:</strong> {{event.price}} Kr.</div>
           </div>
 
         <div class="span4">
@@ -25,10 +32,5 @@
             </address>
           </div>
     </div>
-      <hr>
-      <div class="row">
-          <div class="span11">
-              <h6>{{event.abstract}} </h6>
-          </div>
-      </div>
+
   </div>

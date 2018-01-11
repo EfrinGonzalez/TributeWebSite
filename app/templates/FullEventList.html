@@ -13,7 +13,7 @@
                         ng-show="sortType == 'id'" class="fa fa-caret-down"></span> Id
                 </a></b></td>-->
                 <td><b><a href="/calendar" ng-click="sortType = 'date'"> <span
-                        ng-show="sortType == 'date'" class="fa fa-caret-down"></span> Date <br>(dd/mm/yyyy)
+                        ng-show="sortType == 'date'" class="fa fa-caret-down"></span> Date <br>
                 </a></b></td>
 
                 <td><b><a href="/calendar" ng-click="sortType = 'time'"> <span
@@ -29,7 +29,7 @@
 
 
                 <td><b><a href="/calendar" ng-click="sortType = 'price'"> <span
-                        ng-show="sortType == 'price'" class="fa fa-caret-down"></span> Price <br>(all in DKKr.)
+                        ng-show="sortType == 'price'" class="fa fa-caret-down"></span> Price <br>
                 </a></b></td>
             </tr>
         </div>
@@ -44,7 +44,7 @@
                 <td><a href="event/{{event.id}}">{{event.location.address}} , {{event.location.city}} , {{event.location.province}}</a></td>
 
 
-                <td><a href="event/{{event.id}}">{{event.price}}</a></td>
+                <td><a href="event/{{event.id}}">{{event.price}} Kr.</a></td>
 
 
             </tr>

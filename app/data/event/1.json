@@ -1,7 +1,7 @@
 {           "creator":"efrin",
-            "name": "Tribute salsa dura party",
+            "name": "Tribute Salsa Dura - Release Party!",
             "id": 1,
-            "date": "03/02/2018",
+            "date": "03/Feb/2018",
             "time": "20:00",
             "price": "60.00",
             "location": {
@@ -9,7 +9,7 @@
                 "city": "Copenhagen",
                 "province": "2200 N"
             },
-            "abstract":"Come a enjoy the only salsa dura concept in town!",
-            "imageUrl": "http://lasalsabrava.com/wp-content/uploads/2014/03/mafia-banner.jpg"
+            "abstract":"Come a enjoy the only salsa dura concept in town. We are happy to have the release party with joyful sounds from all over Latin America.",
+            "imageUrl": "http://www.iasorecords.com/sites/default/files/artist-banner-img/edit%20export_1.jpg"
 
 }
