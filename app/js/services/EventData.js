@@ -5,7 +5,8 @@ eventsApp.factory('eventData', function($resource) {
             return resource.get({id:eventId});
         },
         save: function(event) {
-            event.id = 998;
+          //  event.id = 'sdfhadkj';
+        // console.log("size: "+resource.query.getAll);
             return resource.save(event);
         },
         getAllEvents: function() {

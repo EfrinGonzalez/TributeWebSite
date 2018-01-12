@@ -7,9 +7,9 @@ eventsApp.controller('EventController',
 
 
         $scope.event = $route.current.locals.event
-        $scope.reload = function() {
+      /*  $scope.reload = function() {
             $route.reload();
-        }
+        }*/
 
        /* $scope.upVoteSession = function(session) {
           session.upVoteCount++;
