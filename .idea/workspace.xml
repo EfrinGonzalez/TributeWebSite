@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ab500b9-c6f7-4b90-8268-586c60bc65fd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/FullEventList.html" afterPath="$PROJECT_DIR$/app/templates/FullEventList.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/Blog.html" afterPath="$PROJECT_DIR$/app/templates/Blog.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,17 +28,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Blog.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Blog.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/templates/Blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="281">
+              <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FullEventList.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FullEventList.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/FullEventList.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -202,9 +202,9 @@
         <option value="$PROJECT_DIR$/app/templates/EventDetails.html" />
         <option value="$PROJECT_DIR$/app/templates/About.html" />
         <option value="$PROJECT_DIR$/app/templates/Contact.html" />
-        <option value="$PROJECT_DIR$/app/templates/Blog.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/templates/FullEventList.html" />
+        <option value="$PROJECT_DIR$/app/templates/Blog.html" />
       </list>
     </option>
   </component>
@@ -218,8 +218,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="438" />
-    <option name="y" value="145" />
+    <option name="x" value="257" />
+    <option name="y" value="58" />
     <option name="width" value="913" />
     <option name="height" value="628" />
   </component>
@@ -329,12 +329,12 @@
       <workItem from="1515068544568" duration="2147000" />
       <workItem from="1515071442544" duration="6783000" />
       <workItem from="1515157472314" duration="31328000" />
-      <workItem from="1515677556493" duration="4772000" />
+      <workItem from="1515677556493" duration="6451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109898000" />
+    <option name="totallyTimeSpent" value="111577000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -700,14 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/Blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -730,6 +722,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/Blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
           <folding />
         </state>
       </provider>
