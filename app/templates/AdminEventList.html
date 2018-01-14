@@ -1,0 +1,60 @@
+
+<div>
+
+
+    <h1>Admin panel</h1>
+
+    <br>
+    <div ng-controller="MainMenuController">
+        <a href="#" ng-click="createEvent()">Create Event</a>
+    </div>
+
+    </br>
+    <!--Sorting by: {{ sortType }} </br>
+    (Click the column header to sort) -->
+    </br>
+ <table class="table tshirttable">
+		<div>
+            <tr>
+                <td><b><a href="/calendar" ng-click="sortType = 'id'"> <span
+                        ng-show="sortType == 'id'" class="fa fa-caret-down"></span> Id
+                </a></b></td>
+                <td><b><a href="/admin/home" ng-click="sortType = 'date'"> <span
+                        ng-show="sortType == 'date'" class="fa fa-caret-down"></span> Date <br>
+                </a></b></td>
+
+                <td><b><a href="/admin/home" ng-click="sortType = 'time'"> <span
+                        ng-show="sortType == 'time'" class="fa fa-caret-down"></span> Time
+                </a></b></td>
+
+                <td><b><a href="/admin/home" ng-click="sortType = 'name'"> <span
+                        ng-show="sortType == 'name'" class="fa fa-caret-down"></span> Event Name
+                </a></b></td>
+                <td><b><a href="/admin/home" ng-click="sortType = 'location.city'"> <span
+                        ng-show="sortType == 'location.city'" class="fa fa-caret-down"></span> Address
+                </a></b></td>
+
+
+                <td><b><a href="/admin/home" ng-click="sortType = 'price'"> <span
+                        ng-show="sortType == 'price'" class="fa fa-caret-down"></span> Price <br>
+                </a></b></td>
+            </tr>
+        </div>
+
+
+
+            <tr ng-repeat="event in events|orderBy:sortType:reverse">
+                <td><a href="event/{{event.id}}"> {{event.id}}</a></td>
+                <td><a href="event/{{event.id}}">{{event.date}}</a></td>
+                <td><a href="event/{{event.id}}">{{event.time}}</a></td>
+                <td><a href="event/{{event.id}}"> {{event.name}}</a></td>
+                <td><a href="event/{{event.id}}">{{event.location.address}} , {{event.location.city}} , {{event.location.province}}</a></td>
+
+
+                <td><a href="event/{{event.id}}">{{event.price}} Kr.</a></td>
+
+
+            </tr>
+</table>
+</div>
+

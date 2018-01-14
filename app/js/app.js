@@ -2,11 +2,24 @@
 
 var eventsApp = angular.module('eventsApp', ['ngResource', 'ngRoute'])
     .config(function($routeProvider, $locationProvider) {
-        $routeProvider.when('/newEvent',
+      //Admin panel routes
+        $routeProvider.when('/admin-panel',
             {
-                templateUrl:'templates/NewEvent.html',
+                templateUrl:'templates/AdminLogin.html',
+                //controller: 'EventListController'
+            });
+        $routeProvider.when('/admin/home',
+            {
+                templateUrl:'templates/AdminEventList.html',
+                controller: 'EventListController'
+            });
+        $routeProvider.when('/admin/newEvent',
+            {
+                templateUrl:'templates/AdminNewEvent.html',
                 controller: 'EditEventController'
             });
+
+        //Standar user routes
         $routeProvider.when('/event/:eventId',
             {
                 templateUrl: 'templates/EventDetails.html',

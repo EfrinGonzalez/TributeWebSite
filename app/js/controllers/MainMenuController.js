@@ -12,6 +12,6 @@ eventsApp.controller('MainMenuController',
         console.log('url:', $location.url());
         $scope.createEvent = function() {
             $location.replace();
-            $location.url('/newEvent');
+            $location.url('/admin/newEvent');
         }
     })
