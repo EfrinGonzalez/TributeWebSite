@@ -20,6 +20,7 @@ app.get('/data/event', events.getAll);
 
 
 app.post('/data/event/:id', events.save);
+app.post('/data/event/:id', events.deleteEvent);
 
 //When there is not a defined route, it will send index.html (html5 routing)
 app.get('*', function(req, res) { res.sendFile(rootPath + '/app/index.html'); });

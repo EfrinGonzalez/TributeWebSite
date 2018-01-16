@@ -398,7 +398,7 @@ function nextUid() {
 /**
  * Set or clear the hashkey for an object.
  * @param obj object
- * @param h the hashkey (!truthy to delete the hashkey)
+ * @param h the hashkey (!truthy to deleteEvent the hashkey)
  */
 function setHashKey(obj, h) {
   if (h) {
@@ -2804,7 +2804,7 @@ function jqLiteRemoveData(element, name) {
       jqLiteOff(element);
     }
     delete jqCache[expandoId];
-    element.ng339 = undefined; // don't delete DOM expandos. IE and Chrome don't like it
+    element.ng339 = undefined; // don't deleteEvent DOM expandos. IE and Chrome don't like it
   }
 }
 
@@ -9479,7 +9479,7 @@ function $HttpProvider() {
      * - {@link ng.$http#head $http.head}
      * - {@link ng.$http#post $http.post}
      * - {@link ng.$http#put $http.put}
-     * - {@link ng.$http#delete $http.delete}
+     * - {@link ng.$http#deleteEvent $http.delete}
      * - {@link ng.$http#jsonp $http.jsonp}
      * - {@link ng.$http#patch $http.patch}
      *
@@ -10090,7 +10090,7 @@ function $HttpProvider() {
      * @param {Object=} config Optional configuration object
      * @returns {HttpPromise} Future object
      */
-    createShortMethods('get', 'delete', 'head', 'jsonp');
+    createShortMethods('get', 'deleteEvent', 'head', 'jsonp');
 
     /**
      * @ngdoc method
@@ -17317,7 +17317,7 @@ function $SnifferProvider() {
       // jshint +W018
       hasEvent: function(event) {
         // IE9 implements 'input' event it's so fubared that we rather pretend that it doesn't have
-        // it. In particular the event is not fired when backspace or delete key are pressed or
+        // it. In particular the event is not fired when backspace or deleteEvent key are pressed or
         // when cut operation is performed.
         // IE10+ implements 'input' event but it erroneously fires under various situations,
         // e.g. when placeholder changes, or a form is focused.
@@ -21259,7 +21259,7 @@ function baseInputType(scope, element, attr, ctrl, $sniffer, $browser) {
   };
 
   // if the browser does support "input" event, we are fine - except on IE9 which doesn't fire the
-  // input event on backspace, delete or cut
+  // input event on backspace, deleteEvent or cut
   if ($sniffer.hasEvent('input')) {
     element.on('input', listener);
   } else {

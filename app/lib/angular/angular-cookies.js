@@ -166,7 +166,7 @@
                      * @description
                      * Remove given cookie
                      *
-                     * @param {string} key Id of the key-value pair to delete.
+                     * @param {string} key Id of the key-value pair to deleteEvent.
                      * @param {Object=} options Options object.
                      *    See {@link ngCookies.$cookiesProvider#defaults $cookiesProvider.defaults}
                      */
@@ -248,7 +248,7 @@
                  * @description
                  * Remove given cookie
                  *
-                 * @param {string} key Id of the key-value pair to delete.
+                 * @param {string} key Id of the key-value pair to deleteEvent.
                  */
                 remove: function(key) {
                     $cookies.remove(key);

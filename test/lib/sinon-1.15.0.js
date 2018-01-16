@@ -1286,15 +1286,15 @@ var sinon = (function () {
             method.stackTrace = (new Error("Stack Trace for original")).stack;
 
             method.restore = function () {
-                // For prototype properties try to reset by delete first.
+                // For prototype properties try to reset by deleteEvent first.
                 // If this fails (ex: localStorage on mobile safari) then force a reset
                 // via direct assignment.
                 if (!owned) {
-                    // In some cases `delete` may throw an error
+                    // In some cases `deleteEvent` may throw an error
                     try {
                         delete object[property];
                     } catch (e) {}
-                    // For native code functions `delete` fails without throwing an error
+                    // For native code functions `deleteEvent` fails without throwing an error
                     // on Chrome < 43, PhantomJS, etc.
                 } else if (hasES5Support) {
                     Object.defineProperty(object, property, wrappedMethodDesc);

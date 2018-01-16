@@ -717,7 +717,7 @@ $.extend(Datepicker.prototype, {
 				prop("disabled", false);
 		}
 		this._disabledInputs = $.map(this._disabledInputs,
-			function(value) { return (value === target ? null : value); }); // delete entry
+			function(value) { return (value === target ? null : value); }); // deleteEvent entry
 	},
 
 	/* Disable the date picker to a jQuery selection.
@@ -745,7 +745,7 @@ $.extend(Datepicker.prototype, {
 				prop("disabled", true);
 		}
 		this._disabledInputs = $.map(this._disabledInputs,
-			function(value) { return (value === target ? null : value); }); // delete entry
+			function(value) { return (value === target ? null : value); }); // deleteEvent entry
 		this._disabledInputs[this._disabledInputs.length] = target;
 	},
 

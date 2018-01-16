@@ -1,21 +1,36 @@
 'use strict';
 
 eventsApp.controller('EditEventController',
-    function EditEventController($scope, eventData) {
-
-        $scope.event = {};
-
+    function EditEventController($scope, eventData, $routeParams, $route) {
+        //$scope.event = {};
+        $scope.event = $route.current.locals.event
         $scope.saveEvent = function(event, newEventForm) {
            // if(newEventForm.$valid) {
                 eventData.save(event)
                     .$promise
-                    .then(function(response) { console.log('success', response)})
+                    .then(function(response) { window.location = 'admin/home';console.log('success', response) })
                     .catch(function(response) { console.log('failure', response)});
            // }
+
+        };
+
+        $scope.delete = function(eventId) {
+                console.log(" $scope.deleteEvent---Event id: " + eventId)
+            // if(newEventForm.$valid) {
+
+
+            eventData.delete(eventId)
+                .$promise
+                .then(function(response) { window.location = 'admin/home'; console.log('success', response) })
+                .catch(function(response) { console.log('failure', response)});
+
+
+            // }
+
         };
 
         $scope.cancelEvent = function() {
-        window.location = '/EventDetails.html';
+        window.location = 'admin/home';
         }
 
     }

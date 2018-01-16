@@ -7,7 +7,13 @@ eventsApp.factory('eventData', function($resource) {
         save: function(event) {
           //  event.id = 'sdfhadkj';
         // console.log("size: "+resource.query.getAll);
-            return resource.save(event);
+            return resource. save(event);
+        },
+        delete: function(eventId) {
+            //  event.id = 'sdfhadkj';
+             console.log("Event data.js: " + eventId );
+            return resource.remove({id:eventId});
+             //return resource.delete({id:eventId});
         },
         getAllEvents: function() {
             return resource.query();

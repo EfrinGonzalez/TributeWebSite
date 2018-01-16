@@ -10,6 +10,8 @@ eventsApp.controller('MainMenuController',
         console.log('search:', $location.search());
         console.log('hash:', $location.hash());
         console.log('url:', $location.url());
+
+
         $scope.createEvent = function() {
             $location.replace();
             $location.url('/admin/newEvent');

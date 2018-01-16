@@ -15,10 +15,31 @@ var eventsApp = angular.module('eventsApp', ['ngResource', 'ngRoute'])
             });
         $routeProvider.when('/admin/newEvent',
             {
-                templateUrl:'templates/AdminNewEvent.html',
+                templateUrl:'templates/AdminEventForm.html',
                 controller: 'EditEventController'
             });
 
+        $routeProvider.when('/admin/editEvent/:eventId',
+            {
+                templateUrl:'templates/AdminEventForm.html',
+                controller: 'EditEventController',
+                resolve: {
+                    event: function($route, eventData) {
+                        return eventData.getEvent($route.current.pathParams.eventId).$promise;
+                    }
+                }
+            });
+        $routeProvider.when('/admin/deleteEvent/:eventId',
+            {
+                //templateUrl:'templates/AdminEventForm.html',
+                controller: 'EditEventController',
+                resolve: {
+                    event: function($route, eventData) {
+                        console.log("App.js : "+ $route.current.pathParams.eventId)
+                        return eventData.delete($route.current.pathParams.eventId).$promise;
+                    }
+                }
+            });
         //Standar user routes
         $routeProvider.when('/event/:eventId',
             {
