@@ -12,7 +12,7 @@ eventsApp.factory('eventData', function($resource) {
         delete: function(eventId) {
             //  event.id = 'sdfhadkj';
              console.log("Event data.js: " + eventId );
-            return resource.remove({id:eventId});
+            return resource.delete({id:eventId});
              //return resource.delete({id:eventId});
         },
         getAllEvents: function() {

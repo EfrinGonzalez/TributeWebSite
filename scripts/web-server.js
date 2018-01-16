@@ -20,7 +20,7 @@ app.get('/data/event', events.getAll);
 
 
 app.post('/data/event/:id', events.save);
-app.post('/data/event/:id', events.deleteEvent);
+app.post('/data/event/:id', events.delete);
 
 //When there is not a defined route, it will send index.html (html5 routing)
 app.get('*', function(req, res) { res.sendFile(rootPath + '/app/index.html'); });
@@ -44,8 +44,13 @@ app.get('/hello', function (req, res) {
     res.send('Hello World!');
 });
 
+mongoose.connect('mongodb://tributesalsa_admin:admin@ds239177.mlab.com:39177/tributesalsa_db', { useMongoClient: true }, (err) => {
+    if(!err)
+console.log('connected to Salsa dura mongo')
+})
+/*
 mongoose.connect('mongodb://tributesalsa_admin:admin@ds239177.mlab.com:39177/tributesalsa_db', {useMongoClient: true})
-
+*/
 app.listen(process.env.PORT || 3000, function(){
     console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });

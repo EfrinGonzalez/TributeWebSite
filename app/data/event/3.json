@@ -1,1 +1,11 @@
-{"id":"3","name":"Test","date":"03/mar/2018","time":"10:00","location":{"address":"test","city":"test","province":"test"},"price":"60.00","imageUrl":"http://www.photo"}
+{"id":"3",
+  "name":"Tritube to Hector Lavoe - Live Concert by Son Putillas Band",
+  "date":"05/May/2018",
+  "time":"21:00",
+  "location": {
+    "address": "Frederikssundsvej 7 - Café AE",
+    "city": "Copenhagen",
+    "province": "2400 NV"
+  },
+  "price":"100.00",
+  "imageUrl":"https://images.complex.com/complex/image/upload/c_limit,w_680/fl_lossy,pg_1,q_auto/hjrwcjl8rwjzlmffotp0.jpg"}

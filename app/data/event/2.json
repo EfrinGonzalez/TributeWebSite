@@ -1,1 +1,11 @@
-{"id":"2","name":"Test","date":"03/mar/2018","time":"10:00","location":{"address":"test","city":"test","province":"test"},"price":"60.00","imageUrl":"http://www.photo"}
+{"id":"2",
+  "name":"Tribute to Ivy Queen - Live Concert by Tania Redeyes",
+  "date":"To be published soon!",
+  "time":"21:00",
+  "location": {
+    "address": "Frederikssundsvej 7 - Café AE",
+    "city": "Copenhagen",
+    "province": "2400 NV"
+  },
+  "price":"100.00",
+  "imageUrl":"https://i.ytimg.com/vi/2yd_cicS-FI/0.jpg"}
