@@ -1,1 +1,10 @@
-{"creator":"efrin","name":"Tribute Salsa Dura - Release Party!","id":1,"date":"03/Feb/2018","time":"21:00","price":"60.00","location":{"address":"Frederikssundsvej 7 - Café AE","city":"Copenhagen","province":"2400 NV"},"abstract":"Come a enjoy the only salsa dura concept in town. We are happy to have the release party with joyful sounds from all over Latin America.","imageUrl":"http://www.iasorecords.com/sites/default/files/artist-banner-img/edit%20export_1.jpg"}
+{"creator":"efrin",
+  "name":"Tribute Salsa Dura - Release Party!",
+  "id":1,"date":"03/Feb/2018",
+  "time":"21:00","price":"60.00",
+  "location":
+    {"address":"Frederikssundsvej 7 - Café AE",
+      "city":"Copenhagen","province":"2400 NV"},
+  "abstract":"Come a enjoy the only salsa dura concept in town. We are happy to have the release party with joyful sounds from all over Latin America. Entrance includes wardrobe. (Please, consider that we only accept cash in the entrance.)",
+  "imageUrl":"http://www.iasorecords.com/sites/default/files/artist-banner-img/edit%20export_1.jpg",
+  "facebook_event": "2030013360620651"}
