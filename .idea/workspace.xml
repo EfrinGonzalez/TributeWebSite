@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ab500b9-c6f7-4b90-8268-586c60bc65fd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/data/event/6.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/EFRINGONZALEZ.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/EFRINGONZALEZ.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/data/event/2.json" afterPath="$PROJECT_DIR$/app/data/event/2.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/data/event/3.json" afterPath="$PROJECT_DIR$/app/data/event/3.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/data/event/4.json" afterPath="$PROJECT_DIR$/app/data/event/4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/data/event/5.json" afterPath="$PROJECT_DIR$/app/data/event/5.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/data/event/2.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="31" />
+            <state relative-caret-position="17">
+              <caret line="1" column="62" lean-forward="true" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -116,7 +112,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="5.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="5.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/data/event/5.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -207,11 +203,11 @@
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/js/app.js" />
         <option value="$PROJECT_DIR$/app/templates/Blog.html" />
-        <option value="$PROJECT_DIR$/app/data/event/2.json" />
         <option value="$PROJECT_DIR$/app/data/event/3.json" />
         <option value="$PROJECT_DIR$/app/data/event/4.json" />
         <option value="$PROJECT_DIR$/app/data/event/6.json" />
         <option value="$PROJECT_DIR$/app/data/event/5.json" />
+        <option value="$PROJECT_DIR$/app/data/event/2.json" />
       </list>
     </option>
   </component>
@@ -388,12 +384,12 @@
       <workItem from="1515677556493" duration="9021000" />
       <workItem from="1515781650588" duration="37477000" />
       <workItem from="1516105907456" duration="106000" />
-      <workItem from="1516108561069" duration="10215000" />
+      <workItem from="1516108561069" duration="10413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161945000" />
+    <option name="totallyTimeSpent" value="162143000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -741,14 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/data/event/2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/data/event/3.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -785,6 +773,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/data/event/2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="62" lean-forward="true" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="62" />
           <folding />
         </state>
       </provider>
