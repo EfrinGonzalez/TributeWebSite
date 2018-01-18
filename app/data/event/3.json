@@ -1,11 +1,15 @@
-{"id":"3",
-  "name":"Tritube to Hector Lavoe - Live Concert by Son Putillas Band",
-  "date":"To be published soon!",
+{ "creator":"efrin",
+  "id":"3",
+  "name":"Tribute to Salsa Peruana - Live Concert by 'to be announced'",
+  "date":"24/Mar/2018",
+  "price":"100.00",
   "time":"21:00",
   "location": {
-    "address": "To be published",
+    "address": "Høffdingsvej 10 - Casa Latinoamericana",
     "city": "Copenhagen",
-    "province": "Denmark"
+    "province": "2500 Valby"
   },
-  "price":"100.00",
-  "imageUrl":"https://images.complex.com/complex/image/upload/c_limit,w_680/fl_lossy,pg_1,q_auto/hjrwcjl8rwjzlmffotp0.jpg"}
+  "abstract":"Come a enjoy the only salsa dura concept in town. We are happy to have the release party with joyful sounds from all over Latin America. Entrance includes wardrobe. (Please, consider that we only accept cash in the entrance.)",
+  "imageUrl":"http://www.iasorecords.com/sites/default/files/artist-banner-img/edit%20export_1.jpg",
+  "facebook_event": "2030013360620651"
+}

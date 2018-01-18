@@ -1,11 +1,15 @@
-{"id":"2",
-  "name":"Tribute to Reggaetón - Live Concert by Tania Redeyes",
-  "date":"To be published soon!",
+{ "creator":"efrin",
+  "id":"2",
+  "name":"Tribute to Salsa Colombiana - DJ Colo8 from Colombia",
+  "date":"10/Mar/2018",
+  "price":"60.00",
   "time":"21:00",
   "location": {
-    "address": "To be published",
+    "address": "Høffdingsvej 10 - Casa Latinoamericana",
     "city": "Copenhagen",
-    "province": "Denmark"
+    "province": "2500 Valby"
   },
-  "price":"100.00",
-  "imageUrl":"https://i.ytimg.com/vi/2yd_cicS-FI/0.jpg"}
+  "abstract":"Come a enjoy the only salsa dura concept in town. We are happy to have the release party with joyful sounds from all over Latin America. Entrance includes wardrobe. (Please, consider that we only accept cash in the entrance.)",
+  "imageUrl":"https://i.ytimg.com/vi/eMQSMVKGs6k/maxresdefault.jpg",
+  "facebook_event": "2030013360620651"
+}
