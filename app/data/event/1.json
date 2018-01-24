@@ -1,6 +1,7 @@
 {"creator":"efrin",
   "name":"Tribute Salsa Dura - Release Party!",
-  "id":1,"date":"03/Feb/2018",
+  "id":1,
+  "date":"03/Feb/2018",
   "time":"21:00","price":"60.00",
   "location":
     {"address":"Frederikssundsvej 7 - Café AE",

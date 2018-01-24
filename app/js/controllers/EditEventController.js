@@ -14,21 +14,6 @@ eventsApp.controller('EditEventController',
 
         };
 
-        $scope.delete = function(eventId) {
-                console.log(" $scope.deleteEvent---Event id: " + eventId)
-            // if(newEventForm.$valid) {
-
-
-            eventData.delete(eventId)
-                .$promise
-                .then(function(response) { window.location = 'admin/home'; console.log('success', response) })
-                .catch(function(response) { console.log('failure', response)});
-
-
-            // }
-
-        };
-
         $scope.cancelEvent = function() {
         window.location = 'admin/home';
         }
