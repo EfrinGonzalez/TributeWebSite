@@ -29,8 +29,36 @@ app.use(express.static( rootPath + '/app'));
 //app.post('/data/event/:id', events.delete);
 
 
+
+//Delete in DB (It deletes but does not get back to admin/home)
+app.delete('/event/:id', (req,res) => {
+    try {
+        console.log("id:"+req.params.id);
+        //Event.remove({ _id: req.params.id }, function(err, event) {
+        Event.remove({ _id: req.params.id }, function(err) {
+            if(err) {
+                console.log("The coming id is:"+id);
+                res.send(err);
+                return;
+            }
+            // res.json(event);//return the whole event data
+            console.log('deleted from database');
+
+
+            //res.redirect('admin/home');
+
+        });
+    } catch (error) {
+        console.error(error)
+        res.sendStatus(500)
+    }
+});
+
+
+
+
 //Save event in DB
-app.post('/event', function(req, res) {
+app.post('/event', (req, res) => {
     var newEvent = req.body;
     var event = new Event(newEvent);
    // console.log("Event: "+event.toString());
@@ -42,7 +70,7 @@ app.post('/event', function(req, res) {
             //res.status(201).json(doc.ops[0]);
             //res.json(event);
             console.log('saved to database');
-            res.redirect('admin/home');
+            res.redirect('/admin/home');
         }
     });
 });
@@ -82,6 +110,8 @@ app.get('/event/:id', (req,res) => {
         res.sendStatus(500)
     }
 })
+
+
 
 /*
 app.get('/hello', function (req, res) {

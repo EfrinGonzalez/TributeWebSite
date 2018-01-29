@@ -30,7 +30,7 @@ var eventsApp = angular.module('eventsApp', ['ngResource', 'ngRoute'])
                            }
                        }
                    });
-        /* $routeProvider.when('/admin/deleteEvent/:eventId',
+         $routeProvider.when('/admin/deleteEvent/:eventId',
              {
                  //templateUrl:'templates/AdminEventForm.html',
                  controller: 'EditEventController',
@@ -40,7 +40,9 @@ var eventsApp = angular.module('eventsApp', ['ngResource', 'ngRoute'])
                          return eventData.delete($route.current.pathParams.eventId).$promise;
                      }
                  }
-             });*/
+             });
+
+
         //Standar user routes
         $routeProvider.when('/event/:eventId',
             {

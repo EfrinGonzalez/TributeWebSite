@@ -14,6 +14,12 @@ eventsApp.controller('EditEventController',
 
         };
 
+        /*$scope.deleteEvent = function(event) {
+            console.log('Event:', event.id);
+            window.location = 'admin/home';
+        }*/
+
+
         $scope.cancelEvent = function() {
         window.location = 'admin/home';
         }
