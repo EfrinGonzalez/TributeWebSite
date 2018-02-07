@@ -28,6 +28,39 @@ app.use(express.static( rootPath + '/app'));
 //app.post('/data/event/:id', events.save);
 //app.post('/data/event/:id', events.delete);
 
+//update existing event from DB
+/*app.put('/event/:id', (req,res) => {
+    console.log("inside server");
+    var newEvent = req.body;
+    var event = new Event(newEvent);
+
+    try {
+        console.log("id:"+req.params.id);
+        Event.findOne({ _id: req.params.id }, function(err, event) {
+            if(err) {
+                console.log("The coming id is:"+id);
+                res.send(err);
+                return;
+            }
+            event.save({},function(err, doc) {
+                if (err) {
+                    handleError(res, err.message, "Failed to create new contact.");
+                } else {
+                    //res.status(201).json(doc.ops[0]);
+                    //res.json(event);
+                    console.log('updated in database');
+                    res.redirect('/admin/home');
+                }
+            });
+
+
+            //res.json(event);
+        });
+    } catch (error) {
+        console.error(error)
+        res.sendStatus(500)
+    }
+});*/
 
 
 //Delete in DB (It deletes but does not get back to admin/home)
@@ -44,8 +77,12 @@ app.delete('/event/:id', (req,res) => {
             // res.json(event);//return the whole event data
             console.log('deleted from database');
 
+        //Set HTTP method to GET
+            req.method = 'GET'
+            //res.redirect('/admin/home');
+            res.redirect(req.get('referer'));
+            //res.sendFile(rootPath + '/app/templates/AdminEventList.html');
 
-            //res.redirect('admin/home');
 
         });
     } catch (error) {
@@ -57,7 +94,48 @@ app.delete('/event/:id', (req,res) => {
 
 
 
-//Save event in DB
+
+//Save new trick event in DB
+/*app.post('/event', (req, res) => {
+    //var id;
+   // console.log("Comming: "+id);
+    var newEvent = req.body;
+    var event = new Event(newEvent);
+
+    try {
+        console.log("id:"+event._id);
+        Event.findOne({ _id: req.params.id }, function(err, event) {
+            if(err) {
+                //console.log("The coming id is:"+id);
+                res.send(err);
+                return;
+            }
+
+            event._id = req.params.id;
+            //res.json(event);
+            Console.log("Event_id:"+event._id);
+
+        });
+    } catch (error) {
+        console.error(error)
+        res.sendStatus(500)
+    }
+
+
+
+    event.save({},function(err, doc) {
+        if (err) {
+            handleError(res, err.message, "Failed to create new contact.");
+        } else {
+            //res.status(201).json(doc.ops[0]);
+            //res.json(event);
+            console.log('saved to database');
+            res.redirect('/admin/home');
+        }
+    });
+
+});*/
+
 app.post('/event', (req, res) => {
     var newEvent = req.body;
     var event = new Event(newEvent);
@@ -91,7 +169,7 @@ app.get('/event', (req,res) => {
         console.error(error)
         res.sendStatus(500)
     }
-})
+});
 
 //Get one event from DB
 app.get('/event/:id', (req,res) => {
@@ -109,7 +187,7 @@ app.get('/event/:id', (req,res) => {
         console.error(error)
         res.sendStatus(500)
     }
-})
+});
 
 
 

@@ -1,6 +1,6 @@
 
-<div>
-
+<!--<div>-->
+    <div ng-controller="EditEventController" >
 
     <h1>Admin panel</h1>
 
@@ -54,17 +54,10 @@
                 <td><a href="event/{{event._id}}">{{event.location.address}} , {{event.location.city}} , {{event.location.province}}</a></td>
                 <td><a href="event/{{event._id}}">{{event.price}} Kr.</a></td>
 
-                <!--<a class="btn btn-primary" ui-sref="viewTshirt({id:tshirt.id})">View</a>
-                <a class="btn btn-danger"  ng-click="deleteTshirt(tshirt)">Delete</a>-->
-
-
                 <td><a href="/admin/editEvent/{{event._id}}" class="btn btn-default">Edit</a></td>
-                <td><a href="/admin/deleteEvent/{{event._id}}" class="btn btn-default">Delete</a></td>
+                <!--<td><a href="/admin/deleteEvent/{{event._id}}" class="btn btn-default">Delete</a></td>-->
+                <td><button type="button" ng-click="deleteEvent(event._id)" class="btn btn-default">Delete</button></td>
 
-               <!--<div ng-controller="EditEventController">
-                    <!--<td><a href="/admin/home"  ng-click="deleteEvent(event.id)" class="btn btn-default">Delete</a></td>-->
-                <!--   <td><button type="submit"  ng-click="delete(event.id)" class="btn btn-default">Delete</button></td>
-                </div>-->
 
 
             </tr>

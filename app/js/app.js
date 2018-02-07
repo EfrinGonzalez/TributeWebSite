@@ -29,11 +29,16 @@ var eventsApp = angular.module('eventsApp', ['ngResource', 'ngRoute'])
                                return eventData.getEvent($route.current.pathParams.eventId).$promise;
                            }
                        }
+                      /* resolve: {
+                           event: function($route, eventData) {
+                               return eventData.update($route.current.pathParams.eventId).$promise;
+                           }
+                       }*/
                    });
          $routeProvider.when('/admin/deleteEvent/:eventId',
              {
-                 //templateUrl:'templates/AdminEventForm.html',
-                 controller: 'EditEventController',
+                 templateUrl:'templates/AdminEventList.html',
+                 //controller: 'EditEventController',
                  resolve: {
                      event: function($route, eventData) {
                          console.log("App.js : "+ $route.current.pathParams.eventId)
