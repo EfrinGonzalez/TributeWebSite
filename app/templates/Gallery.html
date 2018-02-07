@@ -1,72 +1,71 @@
-<!DOCTYPE html>
-<!--source of this sample code https://www.w3schools.com/css/css_image_gallery.asp -->
-<html lang="en">
-<head>
-    <style>
-        div.gallery {
-            margin: 5px;
-            border: 1px solid #ccc;
-            float: left;
-            width: 300px;
-        }
 
-        div.gallery:hover {
-            border: 1px solid #777;
-        }
+<!--https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_self-->
 
-        div.gallery img {
-            width: 100%;
-            height: auto;
-        }
-
-        div.desc {
-            padding: 15px;
-            text-align: center;
-        }
-    </style>
-</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
 
-<p>What more picture at our facebook fan page!</p>
-<div class="gallery">
-    <a target="_blank" href="">
-        <img src="https://usercontent1.hubstatic.com/8237008_f520.jpg" alt="Fjords" width="300" height="200">
-    </a>
-    <div class="desc">Ladies night party!</div>
+<!--<h2 class="w3-center">Manual Slideshow</h2>-->
+
+<div class="w3-content w3-display-container">
+
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27540985_599760303689566_677314444514151574_n.jpg?oh=79a05fcb2e62511aa4fdf8d777a7de45&oe=5B13EEA4" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27459071_599760567022873_9119040502905648672_n.jpg?oh=dfa9a0aec2692dbc2e8a1242e2076cdb&oe=5B209BDE" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27540642_599760543689542_6392642537704359828_n.jpg?oh=c875855bdbb3782058c565e415754308&oe=5B13CA87" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27750490_599759867022943_6863793355303260624_n.jpg?oh=ed689722dd7a2ca38aa8ec05584f375f&oe=5AD935C6" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27459623_599759963689600_1319532214190626762_n.jpg?oh=dfccf8098ada211e6e1b53bba3b84a10&oe=5B23A13A" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27459078_599760007022929_597044337467534923_n.jpg?oh=44e4d54e75c8a399956427306cedc04d&oe=5ADCB02C" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27657087_599759603689636_2765418238639054918_n.jpg?oh=00c4c9a6851c304939d0eb2b7a0ce5ca&oe=5B13A772" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27545393_599759883689608_564853320685251041_n.jpg?oh=fc1f4411ffdbe97c661031e98dbf48d8&oe=5B196EA8" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27540421_599759967022933_464680698761033680_n.jpg?oh=7237ef5b8c6abfa0d743fbf643bc6457&oe=5B21AC17" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27657453_599759607022969_8217898344814166687_n.jpg?oh=0e39e6e2fd2983d2f0753b17152471ba&oe=5ADD226A" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27655093_599760257022904_7942357145781600742_n.jpg?oh=cc43da01eb6aee83006739efb8fad3a6&oe=5AE25073" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27459464_599759733689623_2692987097793818133_n.jpg?oh=1e6daa97186666f4c6723f687f975ccc&oe=5B1D47CD" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27540278_599760063689590_7363191190879187353_n.jpg?oh=784e0ba130982aa48f54b03b3ff74b3c&oe=5B1F503C" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27657308_599759863689610_2586291755867165553_n.jpg?oh=25e47b18f4933ed649654c44943860a1&oe=5AD90CD2" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27337356_599760110356252_8756974054891953912_n.jpg?oh=2ce0b3454c98a2e2d75a1338b0c8f132&oe=5AE3D739" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27750275_599759873689609_690874601981683136_n.jpg?oh=c1a952809663bb1000e3f221f355d40e&oe=5B14DF51" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27459123_599759600356303_6457186819645485565_n.jpg?oh=dde26461261a4fa8a197a5d5397d9297&oe=5B10D6A8" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27545260_599760197022910_2852718502998011369_n.jpg?oh=791c3b2f95a6f3dbffdbdb16ddffe4c2&oe=5B1DB059" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27654836_599759960356267_1904158367066456649_n.jpg?oh=5274beec0c4a8cbfac25dde8c2ec957c&oe=5ADEADEB" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27655500_599759740356289_318756709669520535_n.jpg?oh=dde38fc567aad063b0ab663a6360caf7&oe=5ADEC821" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27337193_599760547022875_8135230150026680017_n.jpg?oh=d8c5aae422bafd849ba1f7f483afa1a1&oe=5ADB4B9D" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27458949_599760113689585_519188980496923202_n.jpg?oh=00054773c4b6eabd8b0c53ae5a4e1bc3&oe=5B10209B" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27654749_599760697022860_4314930513598558265_n.jpg?oh=8243d4178bf51ec0c6747e9302accafe&oe=5ADC995F" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27655423_599760647022865_1388880975944778622_n.jpg?oh=12b0e745828fcc460870ad0b0a70be1d&oe=5B211A86" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27540655_599760390356224_5460939403205582647_n.jpg?oh=a1be5ac13b0d31743b0440d6e385c28b&oe=5B1C5211" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27540819_599760420356221_2626962821812068394_n.jpg?oh=8616a931fd24ab5e86ce9be53e6f9007&oe=5AE5347B" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27459007_599760727022857_1734698524544442644_n.jpg?oh=003d2878805617db388c3f2d07a7b3ba&oe=5B0E1D2B" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27459071_599760567022873_9119040502905648672_n.jpg?oh=dfa9a0aec2692dbc2e8a1242e2076cdb&oe=5B209BDE" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27544914_599759750356288_77019925397797255_n.jpg?oh=d02c5a266f43f722fcc1749b965f8665&oe=5B18CBA4" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27544914_599759750356288_77019925397797255_n.jpg?oh=d02c5a266f43f722fcc1749b965f8665&oe=5B18CBA4" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27749805_599759753689621_2291015662006104513_n.jpg?oh=34777672768ca6014e54dadfd2cec992&oe=5ADA5D4A" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27459523_599760387022891_6224104152839031688_n.jpg?oh=2baa03389c6173ff0760f66e237c60f7&oe=5B127789" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27545208_599760570356206_277263728979370483_n.jpg?oh=a4d719c684f70f92a76570165e7ea2ac&oe=5B1C20A6" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27541098_599760707022859_2457773745812163546_n.jpg?oh=5ecc88b92163a0de309f66c153e0b410&oe=5B1E0A10" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27750691_599760273689569_6844414596200778235_n.jpg?oh=c3072649d459a94fa6aa3b71e06db1bd&oe=5AE0F7ED" style="width:100%">
+    <img class="mySlides" src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.0-9/27540852_599760253689571_868475009275950910_n.jpg?oh=a1e70a8c3374850fad59209b2171fb52&oe=5ADEB6BB" style="width:100%">
+
+    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
 </div>
 
-<div class="gallery">
-    <a target="_blank" href="">
-        <img src="https://www.sweetsalsa.co.uk/sites/default/files/new-year-party.jpg" alt="Fjords" width="300" height="200">
-    </a>
-    <div class="desc">New years eve party!</div>
-</div>
-<div class="gallery">
-    <a target="_blank" href="">
-        <img src="https://usercontent1.hubstatic.com/8237008_f520.jpg" alt="Fjords" width="300" height="200">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-</div>
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
 
-<div class="gallery">
-    <a target="_blank" href="">
-        <img src="http://www.salsatecas.net/benelux/salsa4445.jpg" alt="Fjords" width="300" height="200">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-</div>
-<div class="gallery">
-    <a target="_blank" href="">
-        <img src="https://www.salsabythebay.com/wp-content/uploads/2014/10/halloween-salsa-party.jpg" alt="Fjords" width="300" height="200">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-</div>
+    function plusDivs(n) {
+        showDivs(slideIndex += n);
+    }
 
-<div class="gallery">
-    <a target="_blank" href="">
-        <img src="http://s2.vbare.me/b1/6c3/xXLLakFw.jpg" alt="Fjords" width="300" height="200">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-</div>
-
-</body>
-</html>
+    function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slideIndex-1].style.display = "block";
+    }
+</script>
