@@ -3,8 +3,8 @@
 
 
     </br>
-    <!--Sorting by: {{ sortType }} </br>
-    (Click the column header to sort) -->
+    (Note: Please, check in each specific event for dinner menu and drink prices.)
+    </br>
     </br>
  <table class="table tshirttable">
 
@@ -37,7 +37,8 @@
              <td><b>Time</b></td>
              <td><b>Event Name</b></td>
              <td><b>Address</b></td>
-             <td><b>Price</b></td>
+             <td><b>Only Entrance (prices in Kr.)</b></td>
+             <td><b>With Dinner (prices in Kr.)</b></td>
          </tr>
      </div>
 
@@ -50,6 +51,7 @@
                 <td><a href="event/{{event._id}}"> {{event.name}}</a></td>
                 <td><a href="event/{{event._id}}">{{event.location.address}} , {{event.location.city}} , {{event.location.province}}</a></td>
                 <td><a href="event/{{event._id}}">{{event.price}} Kr.</a></td>
+                <td><a href="event/{{event._id}}">{{event.dinner}} Kr.</a></td>
 
 
             </tr>

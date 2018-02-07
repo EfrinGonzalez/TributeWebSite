@@ -1,11 +1,20 @@
 <div>
-    <h1>Up Coming Events</h1>
+    <h1>Up Coming Parties</h1>
     <hr/>
     <ul class="thumbnails">
-        <li ng-repeat="event in events|orderBy:sortorder:reverse | limitTo:3" class="span9">
+        <li ng-repeat="event in events|orderBy:sortorder:reverse | limitTo:2" class="span9">
                 <event-thumbnail event="event" />
 
         </li>
     </ul>
 
+
+    <h1>Up Coming Latino Bar </h1>
+    <hr/>
+    <ul class="thumbnails">
+        <li ng-repeat="event in events|orderBy:sortorder:reverse | limitTo:2" class="span9">
+            <event-thumbnail event="event" />
+
+        </li>
+    </ul>
 </div>

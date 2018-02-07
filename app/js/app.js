@@ -64,10 +64,15 @@ var eventsApp = angular.module('eventsApp', ['ngResource', 'ngRoute'])
                 templateUrl: 'templates/LimitedEventList.html',
                 controller: 'EventListController'
             });
-        $routeProvider.when('/calendar',
+        $routeProvider.when('/parties_calendar',
             {
-                templateUrl: 'templates/FullEventList.html',
+                templateUrl: 'templates/PartiesFullEventList.html',
                 controller: 'EventListController'
+            });
+        $routeProvider.when('/bar_calendar',
+            {
+                templateUrl: 'templates/BarFullEventList.html',
+                //controller: 'EventListController'
             });
         $routeProvider.when('/about',
             {
