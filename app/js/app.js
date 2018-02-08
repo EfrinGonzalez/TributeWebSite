@@ -4,7 +4,7 @@ var eventsApp = angular.module('eventsApp', ['ngResource', 'ngRoute'])
     .config(function($routeProvider, $locationProvider) {
       //Admin panel routes
 
-       $routeProvider.when('/admin-panel',
+      /* $routeProvider.when('/admin-panel',
             {
                 templateUrl:'templates/AdminLogin.html',
                 //controller: 'EventListController'
@@ -34,7 +34,7 @@ var eventsApp = angular.module('eventsApp', ['ngResource', 'ngRoute'])
                                return eventData.update($route.current.pathParams.eventId).$promise;
                            }
                        }*/
-                   });
+            /*       });
          $routeProvider.when('/admin/deleteEvent/:eventId',
              {
                  templateUrl:'templates/AdminEventList.html',
@@ -46,7 +46,7 @@ var eventsApp = angular.module('eventsApp', ['ngResource', 'ngRoute'])
                      }
                  }
              });
-
+*/
 
         //Standar user routes
         $routeProvider.when('/event/:eventId',
