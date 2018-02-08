@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ab500b9-c6f7-4b90-8268-586c60bc65fd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/app.js" afterPath="$PROJECT_DIR$/app/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/EventDetails.html" afterPath="$PROJECT_DIR$/app/templates/EventDetails.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/Gallery.html" afterPath="$PROJECT_DIR$/app/templates/Gallery.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -76,7 +77,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
@@ -89,8 +90,8 @@
       <file leaf-file-name="Gallery.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/Gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+            <state relative-caret-position="136">
+              <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#1;n#div#0;n#body#0;n#!!top" expanded="true" />
@@ -98,16 +99,46 @@
                 <element signature="n#style#0;n#img#3;n#div#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#4;n#div#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#5;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#6;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#7;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#8;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#9;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#10;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#11;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#12;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#13;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#14;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#15;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#16;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#17;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#18;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#19;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#20;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#21;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#22;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#23;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#24;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#25;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#26;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#27;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#28;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#29;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#30;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#31;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#32;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#33;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#34;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#35;n#div#0;n#body#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="w3.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/css/w3.css">
+      <file leaf-file-name="EventDetails.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/templates/EventDetails.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="265">
+              <caret line="33" column="61" lean-forward="false" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -198,7 +229,6 @@
         <option value="$PROJECT_DIR$/app/data/event/2.json" />
         <option value="$PROJECT_DIR$/app/data/event/4.json" />
         <option value="$PROJECT_DIR$/app/data/event/5.json" />
-        <option value="$PROJECT_DIR$/app/templates/EventDetails.html" />
         <option value="$PROJECT_DIR$/app/templates/directives/eventThumbnail.html" />
         <option value="$PROJECT_DIR$/app/templates/FullEventList.html" />
         <option value="$PROJECT_DIR$/scripts/web-server.js" />
@@ -208,13 +238,14 @@
         <option value="$PROJECT_DIR$/app/templates/Contact.html" />
         <option value="$PROJECT_DIR$/app/js/controllers/EventListController.js" />
         <option value="$PROJECT_DIR$/app/css/w3.css" />
-        <option value="$PROJECT_DIR$/app/templates/Gallery.html" />
         <option value="$PROJECT_DIR$/scripts/Event.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/templates/LimitedEventList.html" />
         <option value="$PROJECT_DIR$/app/templates/BarFullEventList.html" />
         <option value="$PROJECT_DIR$/app/templates/PartiesFullEventList.html" />
         <option value="$PROJECT_DIR$/app/js/app.js" />
+        <option value="$PROJECT_DIR$/app/templates/Gallery.html" />
+        <option value="$PROJECT_DIR$/app/templates/EventDetails.html" />
       </list>
     </option>
   </component>
@@ -373,12 +404,12 @@
       <workItem from="1517247977420" duration="23277000" />
       <workItem from="1517482132792" duration="5654000" />
       <workItem from="1517789923411" duration="575000" />
-      <workItem from="1517844168689" duration="17502000" />
+      <workItem from="1517844168689" duration="19419000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="244926000" />
+    <option name="totallyTimeSpent" value="246843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -544,13 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/EventDetails.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -694,21 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/Gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#2;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#3;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#4;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#5;n#div#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/Event.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -779,6 +788,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="48" column="2" lean-forward="false" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/Gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#2;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#3;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#4;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#5;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#6;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#7;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#8;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#9;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#10;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#11;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#12;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#13;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#14;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#15;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#16;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#17;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#18;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#19;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#20;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#21;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#22;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#23;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#24;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#25;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#26;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#27;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#28;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#29;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#30;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#31;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#32;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#33;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#34;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#35;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/EventDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="33" column="61" lean-forward="false" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
           <folding />
         </state>
       </provider>
