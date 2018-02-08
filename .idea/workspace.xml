@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ab500b9-c6f7-4b90-8268-586c60bc65fd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/BarFullEventList.html" afterPath="$PROJECT_DIR$/app/templates/BarFullEventList.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/LimitedEventList.html" afterPath="$PROJECT_DIR$/app/templates/LimitedEventList.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/PartiesFullEventList.html" afterPath="$PROJECT_DIR$/app/templates/PartiesFullEventList.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BarFullEventList.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BarFullEventList.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/BarFullEventList.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -69,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PartiesFullEventList.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PartiesFullEventList.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/templates/PartiesFullEventList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+            <state relative-caret-position="85">
+              <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -216,8 +213,8 @@
         <option value="$PROJECT_DIR$/scripts/Event.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/templates/LimitedEventList.html" />
-        <option value="$PROJECT_DIR$/app/templates/PartiesFullEventList.html" />
         <option value="$PROJECT_DIR$/app/templates/BarFullEventList.html" />
+        <option value="$PROJECT_DIR$/app/templates/PartiesFullEventList.html" />
       </list>
     </option>
   </component>
@@ -238,8 +235,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="426" />
-    <option name="y" value="142" />
+    <option name="x" value="156" />
+    <option name="y" value="168" />
     <option name="width" value="1190" />
     <option name="height" value="689" />
   </component>
@@ -376,15 +373,15 @@
       <workItem from="1517247977420" duration="23277000" />
       <workItem from="1517482132792" duration="5654000" />
       <workItem from="1517789923411" duration="575000" />
-      <workItem from="1517844168689" duration="17001000" />
+      <workItem from="1517844168689" duration="17078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="244425000" />
+    <option name="totallyTimeSpent" value="244502000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="426" y="142" width="1190" height="689" extended-state="0" />
+    <frame x="156" y="168" width="1190" height="689" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23679727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -762,6 +759,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/BarFullEventList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="41" column="35" lean-forward="false" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/LimitedEventList.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -772,16 +777,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/PartiesFullEventList.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/BarFullEventList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="41" column="35" lean-forward="false" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+        <state relative-caret-position="85">
+          <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           <folding />
         </state>
       </provider>
