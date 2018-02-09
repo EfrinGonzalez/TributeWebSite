@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ab500b9-c6f7-4b90-8268-586c60bc65fd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers/EventController.js" afterPath="$PROJECT_DIR$/app/js/controllers/EventController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers/EventListController.js" afterPath="$PROJECT_DIR$/app/js/controllers/EventListController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/services/EventData.js" afterPath="$PROJECT_DIR$/app/js/services/EventData.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/PartiesFullEventList.html" afterPath="$PROJECT_DIR$/app/templates/PartiesFullEventList.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/Event.js" afterPath="$PROJECT_DIR$/scripts/Event.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/web-server.js" afterPath="$PROJECT_DIR$/scripts/web-server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/EventDetails.html" afterPath="$PROJECT_DIR$/app/templates/EventDetails.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/directives/eventThumbnail.html" afterPath="$PROJECT_DIR$/app/templates/directives/eventThumbnail.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,7 +37,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventListController.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PartiesFullEventList.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/PartiesFullEventList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="48" column="63" lean-forward="true" selection-start-line="48" selection-start-column="63" selection-end-line="48" selection-end-column="82" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eventThumbnail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/directives/eventThumbnail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventDetails.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/templates/EventDetails.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="30" column="72" lean-forward="false" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventListController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/controllers/EventListController.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -146,7 +170,6 @@
         <option value="$PROJECT_DIR$/app/data/event/2.json" />
         <option value="$PROJECT_DIR$/app/data/event/4.json" />
         <option value="$PROJECT_DIR$/app/data/event/5.json" />
-        <option value="$PROJECT_DIR$/app/templates/directives/eventThumbnail.html" />
         <option value="$PROJECT_DIR$/app/templates/FullEventList.html" />
         <option value="$PROJECT_DIR$/app/templates/AdminEventForm.html" />
         <option value="$PROJECT_DIR$/app/js/controllers/EditEventController.js" />
@@ -156,7 +179,6 @@
         <option value="$PROJECT_DIR$/app/templates/LimitedEventList.html" />
         <option value="$PROJECT_DIR$/app/js/app.js" />
         <option value="$PROJECT_DIR$/app/templates/Gallery.html" />
-        <option value="$PROJECT_DIR$/app/templates/EventDetails.html" />
         <option value="$PROJECT_DIR$/app/templates/BarFullEventList.html" />
         <option value="$PROJECT_DIR$/app/js/services/EventData.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
@@ -165,6 +187,8 @@
         <option value="$PROJECT_DIR$/scripts/Event.js" />
         <option value="$PROJECT_DIR$/app/js/controllers/EventController.js" />
         <option value="$PROJECT_DIR$/app/js/controllers/EventListController.js" />
+        <option value="$PROJECT_DIR$/app/templates/directives/eventThumbnail.html" />
+        <option value="$PROJECT_DIR$/app/templates/EventDetails.html" />
       </list>
     </option>
   </component>
@@ -184,9 +208,9 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="358" />
-    <option name="y" value="120" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="828" />
     <option name="height" value="653" />
   </component>
@@ -239,6 +263,13 @@
               <item name="TributeWebSite" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TributeWebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TributeWebSite" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="directives" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TributeWebSite" type="b2602c69:ProjectViewProjectNode" />
@@ -328,7 +359,7 @@
       <workItem from="1517789923411" duration="575000" />
       <workItem from="1517844168689" duration="22474000" />
       <workItem from="1518180603708" duration="2504000" />
-      <workItem from="1518193342608" duration="4119000" />
+      <workItem from="1518193342608" duration="4279000" />
     </task>
     <servers />
   </component>
@@ -338,13 +369,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256521000" />
+    <option name="totallyTimeSpent" value="256681000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="358" y="120" width="828" height="653" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34236452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2035139" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.03464567" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -480,13 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/directives/eventThumbnail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -607,13 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/EventDetails.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers/MainMenuController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -679,22 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/BarFullEventList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="178" lean-forward="false" selection-start-line="4" selection-start-column="178" selection-end-line="4" selection-end-column="178" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/PartiesFullEventList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="48" column="81" lean-forward="false" selection-start-line="48" selection-start-column="81" selection-end-line="48" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/Event.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -733,6 +734,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/BarFullEventList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="178" lean-forward="false" selection-start-line="4" selection-start-column="178" selection-end-line="4" selection-end-column="178" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/PartiesFullEventList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="48" column="63" lean-forward="true" selection-start-line="48" selection-start-column="63" selection-end-line="48" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/directives/eventThumbnail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/EventDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="30" column="72" lean-forward="false" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="72" />
           <folding />
         </state>
       </provider>

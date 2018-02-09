@@ -4,7 +4,7 @@
         <!-- <h2 class="span3"><img ng-src="{{event.imageUrl}}" alt="{{event.name}}"></h2> -->
         <div class="row">
             <span class="span1">Date:  </span>
-            <span>{{event.date}}</span>
+            <span>{{event.date | date:'mediumDate'}}</span>
         </div>
         <div class="row">
             <span class="span1">Time:</span>
