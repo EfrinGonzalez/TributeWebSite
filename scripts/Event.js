@@ -3,8 +3,7 @@ var mongoose = require('mongoose')
 module.exports = mongoose.model('Event',{
 
     name:String,
-    date:String,
-    date:String,
+    date: Date,
     price:String,
     dinner:String,
     location:

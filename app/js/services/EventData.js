@@ -1,7 +1,8 @@
 eventsApp.factory('eventData', function($resource) {
-   // var resource = $resource('/data/event/:id', {id:'@id'}, {"getAll": {method: "GET", isArray: true, params: {something: "foo"}}});
-    var resource = $resource('/event/:id', {id:'@id'}, {"getAll": {method: "GET", isArray: true, params: {something: "foo"}}});
-   // var resource = $resource('/event/:id', {id:'@id'}, {"update": {method: "PUT", isArray: true, params: {something: "foo"}}});
+
+    //var resource = $resource('/event/:id', {id:'@id'}, {"getAll": {method: "GET", isArray: true, params: {something: "foo"}}});
+    var resource = $resource('/event/:id', {id:'@id'});
+
     return {
         getEvent: function(eventId) {
             return resource.get({id:eventId});

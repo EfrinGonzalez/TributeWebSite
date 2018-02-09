@@ -2,7 +2,7 @@
 
 eventsApp.controller('EventController', 
     function EventController($scope, eventData, $routeParams, $route) {
-        $scope.sortorder = '-id';
+        $scope.sortorder = 'date';
 
 
 

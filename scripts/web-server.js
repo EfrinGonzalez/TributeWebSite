@@ -11,7 +11,7 @@ var path = require('path');
 //var events = require('./eventsController');
 
 var Event = require('./Event.js');
-//var User = require('./User.js')
+var User = require('./User.js')
 var app = express();
 var rootPath = path.normalize(__dirname + '/../');//root of app
 
@@ -191,7 +191,7 @@ app.get('/event/:id', (req,res) => {
 
 
 
-/*
+
 app.get('/hello', function (req, res) {
     res.send('Hello World!');
 });
@@ -212,7 +212,7 @@ app.get('/users', (req,res) => {
     }
 })
 
-*/
+
 
 //When there is not a defined route, it will send index.html (html5 routing)
 app.get('*', function(req, res) { res.sendFile(rootPath + '/app/index.html'); });
