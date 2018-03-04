@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "body-parser": "1.13.1",
+    "cors": "^2.8.4",
     "express": "4.13.0",
     "jasmine-core": "2.3.4",
     "json-stringify": "^1.0.0",
