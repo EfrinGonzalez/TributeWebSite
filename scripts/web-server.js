@@ -1,5 +1,5 @@
 var express = require('express');
-var cors = require('cors')
+//var cors = require('cors')
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 mongoose.Promise = global.Promise;/*This line solves the problem with deprecated and error
@@ -18,7 +18,7 @@ var rootPath = path.normalize(__dirname + '/../');//root of app
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
-app.use(cors())
+//app.use(cors())
 app.use(express.static( rootPath + '/app'));
 
 
