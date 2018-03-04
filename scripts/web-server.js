@@ -4,7 +4,7 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 mongoose.Promise = global.Promise;/*This line solves the problem with deprecated and error
 DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html*/
-var jwt = require('jwt-simple')
+//var jwt = require('jwt-simple')
 
 const stringify = require('json-stringify-safe')
 var path = require('path');
