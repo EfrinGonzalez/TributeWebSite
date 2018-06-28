@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ab500b9-c6f7-4b90-8268-586c60bc65fd" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/albums/Dura1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/albums/Dura10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/albums/Dura2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/albums/Dura3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/albums/Dura4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/albums/Dura5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/albums/Dura6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/albums/Dura7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/albums/Dura8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/albums/Dura9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/volcanoguatemala.jpg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/templates/Gallery.html" afterPath="$PROJECT_DIR$/app/templates/Gallery.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,8 +20,8 @@
       <file leaf-file-name="Gallery.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/templates/Gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="31" column="3" lean-forward="false" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+            <state relative-caret-position="235">
+              <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#1;n#div#0;n#body#0;n#!!top" expanded="true" />
@@ -122,7 +112,7 @@
         <entry file="file://$PROJECT_DIR$/app/templates/LimitedEventList.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+              <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -258,7 +248,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="width" value="982" />
     <option name="height" value="648" />
@@ -298,13 +288,6 @@
               <item name="TributeWebSite" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TributeWebSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TributeWebSite" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="albums" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TributeWebSite" type="b2602c69:ProjectViewProjectNode" />
@@ -366,11 +349,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\EFRINGONZALEZ\Documents\GitHub\TributeWebSite\app\img" />
       <recent name="C:\Users\EFRINGONZALEZ\Documents\GitHub\TributeWebSite\app\img\albums" />
       <recent name="C:\Users\EFRINGONZALEZ\Documents\GitHub\TributeWebSite\app\templates" />
       <recent name="C:\Users\EFRINGONZALEZ\Documents\GitHub\TributeWebSite\app\data\event" />
       <recent name="C:\Users\EFRINGONZALEZ\Documents\GitHub\TributeWebSite\app\js" />
-      <recent name="C:\Users\EFRINGONZALEZ\Documents\GitHub\TributeWebSite\app\templates\admin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\EFRINGONZALEZ\Documents\GitHub\TributeWebSite\app\img" />
@@ -437,7 +420,7 @@
       <workItem from="1521664237060" duration="2510000" />
       <workItem from="1522145711385" duration="648000" />
       <workItem from="1522770788395" duration="1241000" />
-      <workItem from="1530130176231" duration="824000" />
+      <workItem from="1530130176231" duration="1618000" />
     </task>
     <servers />
   </component>
@@ -447,10 +430,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266762000" />
+    <option name="totallyTimeSpent" value="267556000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="0" width="982" height="648" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -462,10 +445,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35110295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36320755" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42777777" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19253294" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27225673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -804,7 +787,7 @@
     <entry file="file://$PROJECT_DIR$/app/templates/LimitedEventList.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -851,8 +834,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/Gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="31" column="3" lean-forward="false" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+        <state relative-caret-position="235">
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#1;n#div#0;n#body#0;n#!!top" expanded="true" />
